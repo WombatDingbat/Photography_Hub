@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: green;
+    font-size: 50px;
+    border-bottom: solid black 1px;
+}
+
+.gallery {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: green;
+    font-size: 40px;
+    border-bottom: solid black 1px;
+    height: 500px;
+    overflow: auto;
+}
+
+.contact {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: green;
+    font-size: 40px;
+    border-bottom: solid black 1px;
+    padding-bottom: 30px;
+}
+
+.copy {
+    background: none;
+    border: 0px;
+}
+
+.copy :hover {
+    cursor: pointer;
+}
+
+.email {
+    font-size: 18px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.gallery-button {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    background: none;
+    border: 0px;
+}
+
+.contact-button{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    background: none;
+    border: 0px;
+}
+
+.instagram {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    background: none;
+    border: 0px;
+}
+
+.gallery-button :hover {
+    cursor: pointer;
+}
+
+.contact-button :hover {
+    cursor: pointer;
+}
+
+.instagram :hover {
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+  
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    background: rgba(0, 0, 0, 0.222);
+}
+
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.footer {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 10px;
+    text-align: center;
+}
+
+.copyright {
+    margin: 5px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 24px;
+    text-align: center;
+}
+
+.image {
+    width: 12%;
+}
+
+.image :hover {
+    cursor: pointer;
+}
+
+
+@media (max-width:700px){
+    .header {
+        text-align: center;
+        font-family: 'Monoton', cursive;
+        color: green;
+        font-size: 30px;
+        border-bottom: solid black 1px;
+    }
+
+    .gallery {
+        text-align: center;
+        font-family: 'Monoton', cursive;
+        color: green;
+        font-size: 20px;
+        border-bottom: solid black 1px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .contact {
+        text-align: center;
+        font-family: 'Monoton', cursive;
+        color: green;
+        font-size: 20px;
+        border-bottom: solid black 1px;
+        height: 150px;
+        padding-bottom: 0px;
+    }
+    .image {
+        width: 24%;
+    }
+    .email {
+        font-size: 13px;
+        font-family: 'Major Mono Display', monospace;
+    }
+}
