@@ -141,14 +141,14 @@ html {
     box-shadow: 0px 0px 23px 8px rgba(27,168,27,0.75);
 }
 
-.copybutton {
+#copybutton {
     padding: 5px;
     margin-left: 5px;
     border: green 1px solid;
     border-radius: 5px;
     display: inline;
 }
-.copybutton:hover {
+#copybutton:hover {
     cursor: pointer;
 }
 
