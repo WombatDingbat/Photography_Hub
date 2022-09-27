@@ -167,7 +167,7 @@ html {
         color: green;
         font-size: 20px;
         border-bottom: solid black 1px;
-        height: 200px;
+        height: 500px;
         overflow: auto;
     }
 
@@ -179,6 +179,8 @@ html {
         margin-left: 25px;
         margin-right: 25px;
         margin-bottom: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
     
     .contact {
