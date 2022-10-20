@@ -97,5 +97,28 @@
         <p class="footer">Site made by: WombatDingbat Studio's</p>
         <P class="footer">2022</P>
     </footer> 
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDW6God8cO-0XQgvV3g-LryiqWz0Y3Il7A",
+        authDomain: "photography-hub-dbcaa.firebaseapp.com",
+        projectId: "photography-hub-dbcaa",
+        storageBucket: "photography-hub-dbcaa.appspot.com",
+        messagingSenderId: "516013726225",
+        appId: "1:516013726225:web:eff45c0371fd994dc0afb0",
+        measurementId: "G-CLKF23LQWX"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
