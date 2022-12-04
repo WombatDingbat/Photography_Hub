@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="maxWidth=device-maxWidth, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons8-cameras-16.png" type="image/x-icon">
+    <title>Photography Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Photography Hub</h1>
+    </header>
+    <main>
+        <div class="about">
+            <div class="dimmer">
+                <h1 class="block-title">About</h1>
+                <p>Welcome to <u>Photography Hub</u>. This place has all my work inside for you to browse. Feel free to check out my Intstagram & TikTok for more content.</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="dimmer">
+                <h1 class="block-title">Gallery</h1>
+                <div class="row">
+                    <div id="img" onmouseover="dim()" onmouseleave="dimnot()">
+                        <a><img id="image" src="https://i.ibb.co/7W5gJws/2-People-On-Bench.webp" alt="2-People-On-Bench" border="0"></a>
+                        <a><img id="image1" src="https://i.ibb.co/sytF7CJ/Allyway1.webp" alt="Allyway1" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/M9NN2qL/Architecture1.webp" alt="Architecture1" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/Sxc9vNf/Architecture2.webp" alt="Architecture2" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/z7d635N/Bike-Image1.webp" alt="Bike-Image1" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/C1GZ32X/Bike-Image2.webp" alt="Bike-Image2" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/GVB2YJ0/Car1.webp" alt="Car1" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/MDrQX1p/Car2.webp" alt="Car2" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/X8W7GMP/Car3.webp" alt="Car3" border="0"></a>
+                        <a><img id="image" src="https://i.ibb.co/vhFL8Gb/Car4.webp" alt="Car4" border="0"></a>
+                    </div>
+                    <div id="img1" onmouseover="dim1()" onmouseleave="dimnot1()">
+                        <a><img src="https://i.ibb.co/FB4x0p1/Car5.webp" alt="Car5" border="0"></a>
+                        <a><img src="https://i.ibb.co/Gcrk3f1/Car6.webp" alt="Car6" border="0"></a>
+                        <a><img src="https://i.ibb.co/314KxQf/Car7.webp" alt="Car7" border="0"></a>
+                        <a><img src="https://i.ibb.co/sWvbXBJ/Car8.webp" alt="Car8" border="0"></a>
+                        <a><img src="https://i.ibb.co/51vMmGS/Car10.webp" alt="Car10" border="0"></a>
+                        <a><img src="https://i.ibb.co/w051NcH/Nature1.webp" alt="Nature1" border="0"></a>
+                        <a><img src="https://i.ibb.co/6DLzg7N/Nature3.webp" alt="Nature3" border="0"></a>
+                        <a><img src="https://i.ibb.co/jHtbbvD/Person1.webp" alt="Person1" border="0"></a>
+                        <a><img src="https://i.ibb.co/NpnHbhr/Person2.webp" alt="Person2" border="0"></a>
+                        <a><img src="https://i.ibb.co/16CkxsC/Person3.webp" alt="Person3" border="0"></a>
+                    </div>
+                    <div id="img2" onmouseover="dim2()" onmouseleave="dimnot2()">
+                        <a><img src="https://i.ibb.co/h1Jj24n/Person4.webp" alt="Person4" border="0"></a>
+                        <a><img src="https://i.ibb.co/7JYztTP/Person5.webp" alt="Person5" border="0"></a>
+                        <a><img src="https://i.ibb.co/92QFcbq/Person-In-Hoodie.webp" alt="Person-In-Hoodie" border="0"></a>
+                        <a><img src="https://i.ibb.co/dc0y63F/Person-In-Hoodie2.webp" alt="Person-In-Hoodie2" border="0"></a>
+                        <a><img src="https://i.ibb.co/cTKFbdb/Person-In-Hoodie3.webp" alt="Person-In-Hoodie3" border="0"></a>
+                        <a><img src="https://i.ibb.co/rdXJDXR/River1.webp" alt="River1" border="0"></a>
+                        <a><img src="https://i.ibb.co/Kj4FJjW/River2.webp" alt="River2" border="0"></a>
+                        <a><img src="https://i.ibb.co/dfj6Hxd/River3.webp" alt="River3" border="0"></a>
+                        <a><img src="https://i.ibb.co/bXqVfB4/River4.webp" alt="River4" border="0"></a>
+                        <a><img src="https://i.ibb.co/k2kBzmL/Room1.webp" alt="Room1" border="0"></a>
+                    </div>
+                    <div id="img3" onmouseover="dim3()" onmouseleave="dimnot3()">
+                        <a><img src="https://i.ibb.co/HG1fbTm/Room2.webp" alt="Room2" border="0"></a>
+                        <a><img src="https://i.ibb.co/pKFMghC/Sign1.webp" alt="Sign1" border="0"></a>
+                        <a><img src="https://i.ibb.co/XshPJ5S/Stairs1.webp" alt="Stairs1" border="0"></a>
+                        <a><img src="https://i.ibb.co/QYQHZ7V/Water-Fall1.webp" alt="Water-Fall1" border="0"></a>
+                        <a><img src="https://i.ibb.co/N1qC0sd/West-Coast1.webp" alt="West-Coast1" border="0"></a>
+                        <a><img src="https://i.ibb.co/dBXLpjW/West-Coast2.webp" alt="West-Coast2" border="0"></a>
+                        <a><img src="https://i.ibb.co/d4Rkhqs/West-Coast3.webp" alt="West-Coast3" border="0"></a>
+                        <a><img src="https://i.ibb.co/CbWLqHS/West-Coast4.webp" alt="West-Coast4" border="0"></a>
+                        <a><img src="https://i.ibb.co/m00ZYwB/West-Coast5.webp" alt="West-Coast5" border="0"></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact"> 
+            <div class="dimmerb">
+                <h1 class="block-title">Contact</h1>
+                <p>Check out my Intstagram & TikTok:</p>
+                <img class="link" src="icons8-instagram-50.png" alt="Intstagram" onclick="instagramlink()">
+                <img class="link" src="icons8-tiktok-50.png" alt="TikTok" onclick="tiktoklink()">
+                <p>Or Email me at:</p>
+                <p id="email" onclick="copy()">caidencruz0902@gmail.com</p>
+            </div>
+            <footer>
+                <p class="footer">Site made by WombatDingbat Studio's</p><br>
+                <p class="footer">Last updated 19/11/2022</p>
+            </footer>
+        </div>
+        <div id="fulldim" class="fulldimmer"></div>
+    </main>
+    <script>
+        var w = window.innerWidth;
+        console.log(w)
+
+        if (w < 1200) {
+                document.getElementById("img").style.maxWidth = "20%";
+                document.getElementById("img1").style.maxWidth = "20%";
+                document.getElementById("img2").style.maxWidth = "20%";
+                document.getElementById("img3").style.maxWidth = "20%";
+            }
+        else {
+            document.getElementById("img").style.maxWidth = "24%";
+            document.getElementById("img1").style.maxWidth = "24%";
+            document.getElementById("img2").style.maxWidth = "24%";
+            document.getElementById("img3").style.maxWidth = "24%";
+        }
+        
+
+        function instagramlink() {
+            window.open('https://www.instagram.com/caiden_cruz02/?hl=en', '_blank')
+        }
+
+        function tiktoklink() {
+            window.open('https://www.tiktok.com/@._caiden_cruz', '_blank')
+        }
+
+        function dim() {
+            document.getElementById("fulldim").style.transition = "0.2s";
+            document.getElementById("fulldim").style.height = "100%";
+            document.getElementById("img").style.zIndex = "7";
+        }
+
+        function dimnot() {
+            document.getElementById("fulldim").style.height = "0%";
+            document.getElementById("img").style.zIndex = "0";
+        }
+        
+        function dim1() {
+            document.getElementById("fulldim").style.transition = "0.2s";
+            document.getElementById("fulldim").style.height = "100%";
+            document.getElementById("img1").style.zIndex = "7";
+        }
+
+        function dimnot1() {
+            document.getElementById("fulldim").style.height = "0%";
+            document.getElementById("img1").style.zIndex = "0";
+        }
+
+        function dim2() {
+            document.getElementById("fulldim").style.transition = "0.2s";
+            document.getElementById("fulldim").style.height = "100%";
+            document.getElementById("img2").style.zIndex = "7";
+        }
+
+        function dimnot2() {
+            document.getElementById("fulldim").style.height = "0%";
+            document.getElementById("img2").style.zIndex = "0";
+        }
+
+        function dim3() {
+            document.getElementById("fulldim").style.transition = "0.2s";
+            document.getElementById("fulldim").style.height = "100%";
+            document.getElementById("img3").style.zIndex = "7";
+            document.getElementById("img3").style.translate = "-100px"
+        }
+
+        function dimnot3() {
+            document.getElementById("img3").style.zIndex = "0";
+            document.getElementById("fulldim").style.height = "0%";
+            document.getElementById("img3").style.translate = "0px"
+        }
+    </script>
+</body>
+</html>
